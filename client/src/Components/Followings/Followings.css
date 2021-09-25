@@ -1,0 +1,70 @@
+.followings{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border-radius: 10px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 0px 56px -16px rgba(0,0,0,0.72);
+-webkit-box-shadow: 0px 0px 56px -16px rgba(0,0,0,0.72);
+-moz-box-shadow: 0px 0px 56px -16px rgba(0,0,0,0.72);
+}
+.fn_show{
+    display: block !important;
+    transition: .3s all;
+}
+.fn_hide{
+    display: none !important;
+}
+.followings .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+svg{
+    cursor: pointer;
+}
+.followings .hr{
+    color: rgba(0, 0, 0,0.02);
+    margin: 5px 0;
+}
+.followings .heading{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.followings .peoples{
+    width: 100%;
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.followings .peoples .people .rounded-image{
+    width: 30px;
+    height: 30px;
+}
+.followings .peoples .people{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.followings .peoples .people div{
+    display: flex;
+    align-items: center;
+}
+.followings .peoples .people span{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.followings .peoples .people button{
+    font-size: 13px;
+    padding: 3px 8px;
+    border: 1px solid rgb(29, 84, 236);
+    background: none;
+    border-radius: 5px;
+    color: rgb(29, 84, 236);
+}

@@ -1,0 +1,149 @@
+.open-post-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background: rgba(0,0,0,0.3);
+}
+.open-post{
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    height: 550px;
+    overflow: hidden;
+}
+.open-post-image{
+    width: 50%;
+    overflow: hidden;
+}
+.open-post-card{
+    width: 550px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+    height: 100%;
+    position: relative;
+}
+.open-post-card .card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+}
+.open-post-card .card-header .rounded-image{
+    width: 35px;
+    height: 35px;
+}
+.open-post-card .card-header div{
+    display: flex;
+    align-items: center;
+}
+.open-post-card .card-header span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: #000;
+}
+.open-post-image{
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+.open-post-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.actionButton{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.actionButton div{
+    display: flex;
+    align-items: center;
+}
+.actionButton div .buttons{
+    margin: 7px;
+}
+.actionButton .saved{
+    margin: 7px;
+}
+.card-content .likeCaption{
+    display: flex;
+    align-items: center;
+}
+.card-content .likeCaption .rounded-image{
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+.open-post-desc{
+    height: 340px;
+    overflow-y: scroll;
+}
+.open-post-desc .profile span{
+    color: #000;
+    font-size: 15px;
+}
+.open-post-desc .profile .rounded-image{
+    width: 30px;
+    height: 30px;
+    margin: 7px;
+}
+.open-post-desc .desc{
+    font-size: 14px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+.open-post-desc .desc p{
+    line-height: 18px;
+}
+.open-post-desc .desc .tags{
+    color: blue;
+}
+.card-content .likeCaption span{
+    font-size: 13px;
+}
+.card-content .time{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.5);
+    margin-left: 8px;
+}
+.hr{
+    margin-top: 5px;
+}
+.input-field{
+}
+.input-field svg{
+    margin: 12px;
+    width: 30px;
+}
+.input-field input{
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+}
+.input-field button{
+    background: none;
+    border: none;
+    outline: none;
+    color: #1a6af1;
+    padding: 0 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    font-size: 30px !important;
+}

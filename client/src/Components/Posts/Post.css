@@ -1,0 +1,155 @@
+.post-card{
+    max-width: 580px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+.post-card .card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px;
+    position: relative;
+}
+.post-card .card-header .rounded-image{
+    width: 35px;
+    height: 35px;
+}
+.post-card .card-header div{
+    display: flex;
+    align-items: center;
+}
+.post-card .card-header span{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.header-menu:hover .options{
+    display: flex !important;
+}
+.header-menu .options{
+    flex-direction: column;
+    border: 1px solid #888;
+    position: absolute;
+    display: none !important;
+    background: #fff;
+    align-items: flex-start;
+    top: 38px;
+    right: -26px;
+    transition: .3s all;
+}
+.header-menu .options span{
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    z-index: 333;
+    width: calc(100% - 30px);
+    margin: 0;
+    cursor: pointer;
+}
+.header-menu .options span:hover{
+    background: rgba(0, 0, 0, 0.05);
+}
+.header-menu .options span:first-child{
+    border-bottom: 1px solid #888;
+}
+.header-menu .options span:first-child svg{
+    color: #1a6af1;
+    margin-right: 3px;
+}
+.header-menu .options span:last-child svg{
+    color: #f11a1a;
+    margin-right: 3px;
+}
+.post-image{
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+}
+.post-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.actionButton{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.actionButton div{
+    display: flex;
+    align-items: center;
+}
+.actionButton div .buttons{
+    margin: 7px;
+}
+.actionButton .saved{
+    margin: 7px;
+}
+.card-content .likeCaption{
+    display: flex;
+    align-items: center;
+}
+.card-content .likeCaption .rounded-image{
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+.card-content .likeCaption span{
+    font-size: 13px;
+}
+.card-content .post-desc{
+    margin: 8px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+.card-content .post-desc p{
+    max-height: 18px;
+    max-width: 350px;
+    overflow: hidden;
+}
+.card-content .post-comments{
+    margin: 0 8px;
+    font-size: 13px;
+}
+.card-content .post-comments p{
+    margin-bottom: 4px;
+}
+.card-content .post-comments .comment p{
+    margin-bottom: 0px;
+}
+.card-content .post-comments .comment a{
+    text-decoration: none;
+    color: #1a6af1;
+}
+.card-content .time{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.5);
+    margin-left: 8px;
+}
+.hr{
+    margin-top: 5px;
+}
+.input-field{
+    display: flex;
+}
+.input-field svg{
+    margin: 12px;
+    width: 30px;
+}
+.input-field input{
+    padding: 15px 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+}
+.input-field button{
+    background: none;
+    border: none;
+    outline: none;
+    color: #1a6af1;
+    padding: 0 14px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+.edit-profile-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 500px;
+    padding: 20px;
+}
+.edit-profile-container .heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.edit-profile-container .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.edit-profile-container .top div{
+    display: flex;
+    align-items: center;
+}
+.edit-profile-container .top div span{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.edit-profile-container .top .img-button{
+    padding: 5px 15px;
+    background: none;
+    border: 1px solid rgb(9, 92, 247);
+    border-radius: 5px;
+    color: rgb(9, 92, 247);
+    cursor: pointer;
+    font-size: 13px;
+}
+.edit-profile-container .top .rounded-image{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.edit-profile-container .middle{
+    display: flex;
+    flex-direction: column;
+}
+.edit-profile-container form{
+    display: flex;
+    flex-direction: column;
+}
+.edit-profile-container .middle input{
+    padding: 12px;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 5px 0;
+    outline: none;
+}
+.edit-profile-container .middle textarea{
+    padding: 12px;
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 5px 0;
+    outline: none;
+    height: 80px;
+}
+.edit-profile-container form .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-profile-container form .buttons button{
+    outline: none;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+}
+.edit-profile-container form .buttons .edit{
+    border: none;
+    background: rgb(9, 92, 247);
+    color: #fff;
+}
+.edit-profile-container form .buttons .back{
+    border: 1px solid rgb(9, 92, 247);
+    color: rgb(9, 92, 247);
+    background: none;
+}
